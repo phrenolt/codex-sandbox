@@ -1,0 +1,11 @@
+# IDE / Editor
+.claude/
+.vscode/
+.idea/
+
+# install.sh backup and tmp files
+*.bak.*
+*.tmp
+
+# Mac
+.DS_Store
