@@ -1,10 +1,23 @@
 # codex-sandbox
 
+<p>
+  <a href="https://github.com/phrenolt/codex-sandbox/actions/workflows/ci.yml"><img src="https://github.com/phrenolt/codex-sandbox/actions/workflows/ci.yml/badge.svg?branch=main" alt="ci"></a>
+</p>
+
 A secure, isolated container environment for the OpenAI Codex CLI.
 
-This project wraps Codex in a Podman or Docker container to ensure it only has access to the specific project directory you are working on. This protects your host system and `$HOME` directory from accidental or malicious modifications.
+This project wraps Codex in a rootless Podman container to ensure it only has access to the specific project directory you are working on. This protects your host system and `$HOME` directory from accidental or malicious modifications.
 
 ## Quickstart
+
+### 0. Clone (with submodules)
+This repo vendors its shared shell logic from [`agents-sandbox-common`](https://github.com/phrenolt/agents-sandbox-common) as a git submodule at `common/`. Clone with submodules so it comes along:
+
+```bash
+git clone --recurse-submodules https://github.com/phrenolt/codex-sandbox.git
+# already cloned without it? pull the submodule in:
+git submodule update --init
+```
 
 ### 1. Install & Build
 Run the installation script to build the sandbox image and add the helper commands to your shell configuration (`~/.bashrc` or `~/.zshrc`):
