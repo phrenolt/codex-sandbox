@@ -2,6 +2,7 @@
 
 <p>
   <a href="https://github.com/phrenolt/codex-sandbox/actions/workflows/ci.yml"><img src="https://github.com/phrenolt/codex-sandbox/actions/workflows/ci.yml/badge.svg?branch=main" alt="ci"></a>
+  <a href="https://github.com/phrenolt/codex-sandbox/actions/workflows/build.yml"><img src="https://github.com/phrenolt/codex-sandbox/actions/workflows/build.yml/badge.svg?branch=main" alt="build"></a>
 </p>
 
 A secure, isolated container environment for the OpenAI Codex CLI.
