@@ -1,8 +1,16 @@
-# codex-sandbox
+<p align="center">
+  <img src="logo-codex.jpg" alt="codex-sandbox logo" width="200">
+</p>
 
-<p>
+<h1 align="center">codex-sandbox</h1>
+
+<p align="center">
   <a href="https://github.com/phrenolt/codex-sandbox/actions/workflows/ci.yml"><img src="https://github.com/phrenolt/codex-sandbox/actions/workflows/ci.yml/badge.svg?branch=main" alt="ci"></a>
   <a href="https://github.com/phrenolt/codex-sandbox/actions/workflows/build.yml"><img src="https://github.com/phrenolt/codex-sandbox/actions/workflows/build.yml/badge.svg?branch=main" alt="build"></a>
+</p>
+
+<p align="center">
+  <a href="https://www.patreon.com/phrenolt"><img src="phrenolt-patreon-button-dark.png" alt="Support on Patreon" width="240"></a>
 </p>
 
 A secure, isolated container environment for the OpenAI Codex CLI.
