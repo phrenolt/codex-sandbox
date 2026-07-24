@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.patreon.com/phrenolt"><img src="phrenolt-patreon-button-dark.png" alt="Support on Patreon" width="240"></a>
+  <a href="https://www.patreon.com/phrenolt"><img src="phrenolt-patreon-button-dark.png" alt="Support on Patreon" width="1000"></a>
 </p>
 
 A secure, isolated container environment for the OpenAI Codex CLI.
