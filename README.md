@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo-codex.jpg" alt="codex-sandbox logo" width="1000">
+  <img src="logo-codex.jpg" alt="codex-sandbox logo" width="500">
 </p>
 
 <h1 align="center">codex-sandbox</h1>
